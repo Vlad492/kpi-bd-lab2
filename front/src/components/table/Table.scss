@@ -1,0 +1,48 @@
+.booksTable{
+    width: 95%;
+    height: 500px;
+    header{
+        border-bottom: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        h4{
+            text-align: center;
+            color: white;
+        }
+       
+    }
+    .books{
+        background: white;
+        height: 90%;
+        border: 2px solid silver;
+        .booksBody{
+            height: 90%;
+            overflow-y:scroll;
+           .line{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-around;
+                justify-content: flex-start;
+                border-bottom :.5px solid silver;
+               p{
+                margin: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+               }
+           }
+        }
+        header{
+            display: flex;
+            border:2px solid silver;
+            flex-direction: row;
+            justify-content: space-around;
+            p{
+                margin: 0px;
+                text-align: center;
+            }
+        }
+    }
+}
